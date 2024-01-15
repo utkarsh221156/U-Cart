@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="stylehome.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>U-Cart/Tshirt</title>
+</head>
+<body>
+    <!-- -----------NAVBAR---------------------->
+    <nav class="nav nav_top">
+        <div class="logo">
+            <a href="home.html"><img src="images/logo.png" height= "90"></a>
+        </div>
+        <div class="nav_side">
+            <a href="home.html">MEN</a>
+            <a href="home.html">WOMEN</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="contact.html">CONTACT US</a>
+            <a href="#">🛒CART</a>
+        </div>
+    </nav>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="product">
+                    <h2>What's going on your mind?</h2>
+                    <br><br>
+                    <div class="product_container">
+                        <div class="item">
+                            <div class="item_img">
+                                <img src="tshirt/image1.webp">
+                            </div>
+                            <div class="item_content">
+                                <br>
+                                <a>₹199</a>
+                                <h3>Men sports striped gray</h3>
+                                <button id="image1Btn" onclick="image1()">Add to Cart</button>
+                            </div>
+                        </div>            
+                        <div class="item">
+                            <div class="item_img">
+                                <img src="tshirt/image2.webp">
+                            </div>
+                            <div class="item_content">
+                                <br>
+                                <a>₹299</a>
+                                <h3>Striped grey print the boy</h3>
+                                <button id="image2Btn" onclick="image2()">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_img">
+                                <img src="tshirt/image3.webp">
+                            </div>
+                            <div class="item_content">
+                                <br>
+                                <a>₹259</a>
+                                <h3>Simple white T-shirt</h3>
+                                <button id="image3Btn" onclick="image3()">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_img">
+                                <img src="tshirt/image4.webp">
+                            </div>
+                            <div class="item_content">
+                                <br>
+                                <a>₹399</a>
+                                <h3>Full sleeve inktees</h3>
+                                <button id="image4Btn" onclick="image4()">Add to Cart</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            <!--2nd row  -->
+            <hr>
+            <div class="product">
+                <div class="product_container">
+                    <div class="item">
+                        <div class="item_img">
+                            <img src="tshirt/image5.webp">
+                        </div>
+                        <div class="item_content">
+                            <br>
+                            <a>₹199</a>
+                            <h3>kajaru original</h3>
+                            <button id="image5Btn" onclick="image5()">Add to Cart</button>
+                        </div>
+                    </div>
+        
+                    <div class="item">
+                        <div class="item_img">
+                            <img src="tshirt/image6.webp">
+                        </div>
+                        <div class="item_content">
+                            <br>
+                            <a>₹299</a>
+                            <h3>Men sports striped green</h3>
+                            <button id="image6Btn" onclick="image6()">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                            <div class="item_img">
+                                <img src="tshirt/image7.webp">
+                            </div>
+                            <div class="item_content">
+                                <br>
+                                <a>₹199</a>
+                                <h3>Orange polo plus</h3>
+                                <button id="image7Btn" onclick="image7()">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="item_img">
+                                <img src="tshirt/image8.webp">
+                            </div>
+                            <div class="item_content">
+                                <br>
+                                <a>₹299</a>
+                                <h3>kajaru-original</h3>
+                                <button id="image8Btn" onclick="image8()">Add to Cart</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+<hr>
+<div class="product">
+<h2>You might be interested in</h2>
+</div>
+<head>
+    <style>
+      table {
+        width: 100%;
+        height: 50%;
+        border-collapse: collapse;
+      }
+      tr, td {
+        /* border: 1px solid black; */
+        padding: 8px;
+        text-align: left;
+      }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body><a href="shirt.html">
+  <div class="container mt-5">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active"><table>
+          <tr>
+            <td><img src="shirt/image1.webp" class="d-block w-100" alt="Slide 1"></td>
+            <td><img src="shirt/image2.webp" class="d-block w-100" alt="Slide 2"></td>
+            <td><img src="shirt/image3.webp" class="d-block w-100" alt="Slide 3"></td>
+        </tr>
+        </table></div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <table>
+            <tr><td><img src="shirt/image4.webp" class="d-block w-100" alt="Slide 1"></td>
+            <td><img src="shirt/image5.webp" class="d-block w-100" alt="Slide 2"></td>
+            <td><img src="shirt/image6.webp" class="d-block w-100" alt="Slide 3"></td></tr>
+          </table>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <table>
+            <tr><td><img src="shirt/image7.webp" class="d-block w-100" alt="Slide 1"></td>
+            <td><img src="shirt/image8.webp" class="d-block w-100" alt="Slide 2"></td>
+            <td><img src="shirt/image9.webp" class="d-block w-100" alt="Slide 3"></td></tr>
+          </table>
+        </div>
+      </div>
+      <!-- Carousel Controls -->
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  </a>
+  <!-- hoodie -->
+  <a href="shirt.html">
+    <div class="container mt-5">
+      <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active"><table>
+            <tr>
+              <td><img src="hoodie/image1.webp" class="d-block w-100" alt="Slide 1"></td>
+              <td><img src="hoodie/image2.webp" class="d-block w-100" alt="Slide 2"></td>
+              <td><img src="hoodie/image3.webp" class="d-block w-100" alt="Slide 3"></td>
+          </tr>
+          </table></div>
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <table>
+              <tr><td><img src="hoodie/image4.webp" class="d-block w-100" alt="Slide 1"></td>
+              <td><img src="hoodie/image5.webp" class="d-block w-100" alt="Slide 2"></td>
+              <td><img src="hoodie/image6.webp" class="d-block w-100" alt="Slide 3"></td></tr>
+            </table>
+          </div>
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <table>
+              <tr><td><img src="hoodie/image7.webp" class="d-block w-100" alt="Slide 1"></td>
+              <td><img src="hoodie/image8.webp" class="d-block w-100" alt="Slide 2"></td>
+              <td><img src="hoodie/image9.webp" class="d-block w-100" alt="Slide 3"></td></tr>
+            </table>
+          </div>
+        </div>
+        <!-- Carousel Controls -->
+        <a class="carousel-control-prev" href="#myCarousel1" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel1" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    </a>
+<!-- jeans -->
+<a href="shirt.html">
+    <div class="container mt-5">
+      <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active"><table>
+            <tr>
+              <td><img src="jeans/image1.webp" class="d-block w-100" alt="Slide 1"></td>
+              <td><img src="jeans/image2.webp" class="d-block w-100" alt="Slide 2"></td>
+              <td><img src="jeans/image3.webp" class="d-block w-100" alt="Slide 3"></td>
+          </tr>
+          </table></div>
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <table>
+              <tr><td><img src="jeans/image4.webp" class="d-block w-100" alt="Slide 1"></td>
+              <td><img src="jeans/image5.webp" class="d-block w-100" alt="Slide 2"></td>
+              <td><img src="jeans/image6.webp" class="d-block w-100" alt="Slide 3"></td></tr>
+            </table>
+          </div>
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <table>
+              <tr><td><img src="jeans/image7.webp" class="d-block w-100" alt="Slide 1"></td>
+              <td><img src="jeans/image8.webp" class="d-block w-100" alt="Slide 2"></td>
+              <td><img src="jeans/image9.webp" class="d-block w-100" alt="Slide 3"></td></tr>
+            </table>
+          </div>
+        </div>
+        <!-- Carousel Controls -->
+        <a class="carousel-control-prev" href="#myCarousel2" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel2" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    </a>
+    <hr>
+    <div class="product">
+      <h2>In my Cart</h2>
+      <div class="product_container">
+        <ul id="image1"></ul><br>
+        <ul id="image2"></ul><br>
+        <ul id="image3"></ul><br>
+        <ul id="image4"></ul><br>
+        <ul id="image5"></ul><br>
+        <ul id="image6"></ul><br>
+        <ul id="image7"></ul><br>
+        <ul id="image8"></ul><br>
+         </div>     
+    </div>   
+    <hr>
+     <!-- --------------------------------------FOOTER--------------------------------------------------------> 
+     <footer>
+      <div class="pages">  
+          <h3>Customer Care</h3>
+          <a href="home.html">MEN</a>|
+          <a href="home.html">WOMEN</a>|
+          <a href="about.html">About Us</a>|
+          <a href="contact.html">Contact Us</a>
+      </div>
+      <br>
+      <div class="doc">
+          <h3>Legal</h3>
+          <a href="#">Privacy Policy</a>|
+          <a href="#">Terms of Use</a>|
+          <a href="#">Refund Policy</a>
+      </div>
+      <div class="social">
+          <h3>Follow Us</h3>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </div>
+      <div class="contact">
+          <h3>Contact Us</h3>
+          <a href="https://api.WhatsApp.com/send?phone=+919721295463"><i class="fa fa-whatsapp"></i></a>
+          <a href="tel: +919721295463"><i class="fa fa-phone" aria-hidden="true"></i></a>
+          <a href="mailto: utkarsh221156@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+      </div>
+      <hr>
+  </footer>
+<!-- script for add to cart -->
+
+<script>
+  // Function to add item to the cart
+  function image1() {
+    // Assume you have a product object with details
+    var product1 = {
+      name: "image1",
+      price: 299
+    };
+    // Create a new list item for the cart
+    var cartItem1 = document.createElement("li");
+    cartItem1.textContent = product1.name + " - $" + product1.price;
+    // Append the item to the cart
+    document.getElementById("image1").appendChild(cartItem1);
+    // Change the button text to "Item Added"
+    var image1Btn = document.getElementById("image1Btn");
+    image1Btn.textContent = "Item Added";
+    image1Btn.disabled = true; // Optional: Disable the button after adding an item
+    image1Btn.classList.add("added"); // Optional: Add a CSS class for styling
+  }
+                           // image2 
+   // Function to add item to the cart
+   function image2() {
+    // Assume you have a product object with details
+    var product2 = {
+      name: "image2",
+      price: 299
+    };
+    // Create a new list item for the cart
+    var cartItem2 = document.createElement("li");
+    cartItem2.textContent = product2.name + " - $" + product2.price;
+    // Append the item to the cart
+    document.getElementById("image2").appendChild(cartItem2);
+    // Change the button text to "Item Added"
+    var image2Btn = document.getElementById("image2Btn");
+    image2Btn.textContent = "Item Added";
+    image2Btn.disabled = true; // Optional: Disable the button after adding an item
+    image2Btn.classList.add("added"); // Optional: Add a CSS class for styling
+  }
+                          // image3 
+   // Function to add item to the cart
+   function image3() {
+    // Assume you have a product object with details
+    var product3 = {
+      name: "image3",
+      price: 399
+    };
+    // Create a new list item for the cart
+    var cartItem3 = document.createElement("li");
+    cartItem3.textContent = product3.name + " - $" + product3.price;
+    // Append the item to the cart
+    document.getElementById("image3").appendChild(cartItem3);
+    // Change the button text to "Item Added"
+    var image3Btn = document.getElementById("image3Btn");
+    image3Btn.textContent = "Item Added";
+    image3Btn.disabled = true; // Optional: Disable the button after adding an item
+    image3Btn.classList.add("added"); // Optional: Add a CSS class for styling
+  }
+                          // image4 
+   // Function to add item to the cart
+   function image4() {
+    // Assume you have a product object with details
+    var product4 = {
+      name: "image4",
+      price: 299
+    };
+    // Create a new list item for the cart
+    var cartItem4 = document.createElement("li");
+    cartItem4.textContent = product4.name + " - $" + product4.price;
+    // Append the item to the cart
+    document.getElementById("image4").appendChild(cartItem4);
+    // Change the button text to "Item Added"
+    var image4Btn = document.getElementById("image4Btn");
+    image4Btn.textContent = "Item Added";
+    image4Btn.disabled = true; // Optional: Disable the button after adding an item
+    image4Btn.classList.add("added"); // Optional: Add a CSS class for styling
+  }
+                          // image5 
+   // Function to add item to the cart
+   function image5() {
+    // Assume you have a product object with details
+    var product5 = {
+      name: "image5",
+      price: 599
+    };
+    // Create a new list item for the cart
+    var cartItem5 = document.createElement("li");
+    cartItem5.textContent = product5.name + " - $" + product5.price;
+    // Append the item to the cart
+    document.getElementById("image5").appendChild(cartItem5);
+    // Change the button text to "Item Added"
+    var image5Btn = document.getElementById("image5Btn");
+    image5Btn.textContent = "Item Added";
+    image5Btn.disabled = true; // Optional: Disable the button after adding an item
+    image5Btn.classList.add("added"); // Optional: Add a CSS class for styling
+  }
+                          // image6 
+   // Function to add item to the cart
+   function image6() {
+    // Assume you have a product object with details
+    var product6 = {
+      name: "image6",
+      price: 299
+    };
+    // Create a new list item for the cart
+    var cartItem6 = document.createElement("li");
+    cartItem6.textContent = product6.name + " - $" + product6.price;
+    // Append the item to the cart
+    document.getElementById("image6").appendChild(cartItem6);
+    // Change the button text to "Item Added"
+    var image6Btn = document.getElementById("image6Btn");
+    image6Btn.textContent = "Item Added";
+    image6Btn.disabled = true; // Optional: Disable the button after adding an item
+    image6Btn.classList.add("added"); // Optional: Add a CSS class for styling
+  }
+                          // image7 
+   // Function to add item to the cart
+   function image7() {
+    // Assume you have a product object with details
+    var product7 = {
+      name: "image7",
+      price: 799
+    };
+    // Create a new list item for the cart
+    var cartItem7 = document.createElement("li");
+    cartItem7.textContent = product7.name + " - $" + product7.price;
+    // Append the item to the cart
+    document.getElementById("image7").appendChild(cartItem7);
+    // Change the button text to "Item Added"
+    var image7Btn = document.getElementById("image7Btn");
+    image7Btn.textContent = "Item Added";
+    image7Btn.disabled = true; // Optional: Disable the button after adding an item
+    image7Btn.classList.add("added"); // Optional: Add a CSS class for styling
+  }
+                          // image8 
+   // Function to add item to the cart
+   function image8() {
+    // Assume you have a product object with details
+    var product8 = {
+      name: "image8",
+      price: 899
+    };
+    // Create a new list item for the cart
+    var cartItem8 = document.createElement("li");
+    cartItem8.textContent = product8.name + " - $" + product8.price;
+    // Append the item to the cart
+    document.getElementById("image8").appendChild(cartItem8);
+    // Change the button text to "Item Added"
+    var image8Btn = document.getElementById("image8Btn");
+    image8Btn.textContent = "Item Added";
+    image8Btn.disabled = true; // Option8l: Disable the button after adding an item
+    image8Btn.classList.add("added"); // Optional: Add a CSS class for styling
+  }
+</script>
+    <ul id="image1"></ul>
+    <ul id="image2"></ul>
+    <ul id="image3"></ul>
+    <ul id="image4"></ul>
+    <ul id="image5"></ul>
+    <ul id="image6"></ul>
+    <ul id="image7"></ul>
+    <ul id="image8"></ul>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    </html>
